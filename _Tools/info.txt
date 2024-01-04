@@ -1,0 +1,21 @@
+exomizer.exe
+
+Homepage: https://bitbucket.org/magli143/exomizer/wiki/Home
+
+Short Description: Exomizer is a program that compresses files in a way that tries to be as efficient as possible but still allows them to be decompressed in environments where CPU speed and RAM are limited. For some popular 8-bit computers using 6502 compatible CPUs it can also generate executable files that decompress themselves in memory when run.
+
+-
+
+KOALALINK.exe
+
+Homepage: https://www.lemon64.com/forum/viewtopic.php?t=33595&start=15
+
+Short Description: Tool by Pugsy from the Lemon64-forum. Links a .prg file with a .koa file and compresses both using Exomizer.
+
+-
+
+unp64.exe
+
+Homepage: https://csdb.dk/search/?seinsel=all&search=unp64&Go.x=0&Go.y=0
+
+Short Description: Generic C64 prg unpacker
