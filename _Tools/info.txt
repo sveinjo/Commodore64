@@ -18,6 +18,8 @@ Homepage: https://www.lemon64.com/forum/viewtopic.php?t=33595&start=15
 
 Short Description: Tool by Pugsy from the Lemon64-forum. Links a .prg file with a .koa file and compresses both using Exomizer.
 
+Note: Exomizer.exe needs to be in the same directory as the operation being performed. Having it in path is not sufficient.
+
 -
 
 unp64.exe
