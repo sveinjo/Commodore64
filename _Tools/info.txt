@@ -36,3 +36,14 @@ Pixcen.exe
 Homepage: https://hammarberg.github.io/pixcen/
 
 Short Description: Low level Windows pixel editor for C64
+
+
+==================================
+  3. Apps requiring installation
+==================================
+
+DirMaster
+
+Homepage: https://style64.org/dirmaster
+
+Short Description: DirMaster is a Windows-based GUI application designed to help Commodore enthusiasts explore and manage their disk image collections.
