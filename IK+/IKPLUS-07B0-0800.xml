@@ -1,0 +1,15 @@
+﻿<Metadata>
+  <DumpFile>IKPLUS-07B0-0800</DumpFile>
+  <DumpFileSHA1>1b7b3648b3535f3d638ed8678602be67d5366844</DumpFileSHA1>
+  <SimplifiedName>IK+</SimplifiedName>
+  <JumpAddresses>
+    <Address>$07B0</Address>
+  </JumpAddresses>
+  <UseBasicRun>0</UseBasicRun>
+  <InterruptsEnabled>0</InterruptsEnabled>
+  <MemoryConfig>$37</MemoryConfig>
+  <OriginalFile>IKplus (Activision).tap</OriginalFile>
+  <OriginalFileSHA1>f3de428e375cfbbd84fc2b94f3ee3b45d1c8d8bf</OriginalFileSHA1>
+  <Notes>The original start address was $02A7. Therefore the code here has been moved to $07B0 to keep it above the dump start address of $0400.</Notes>
+  <ExomizerCommand>exomizer sfx 0x07B0 "IKPLUS-07B0-0800" -Di_irq_exit=0 -s "lsr $d011" -f "w1: bit $d011 bpl w1 w2: bit $d011 bmi w2 jsr $fda3 rol $d011" -x "inc $d020" -o "IK+-[ex].prg"</ExomizerCommand>
+</Metadata>
