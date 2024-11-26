@@ -1,0 +1,20 @@
+﻿<Metadata>
+  <DumpFile>FRANKIEGOESTOHOLLYWOOD-0334-60AA</DumpFile>
+  <DumpFileLoadAddress>$0334</DumpFileLoadAddress>
+  <DumpFileSHA1>61be6d96c31925db69808136227d398668881f6b</DumpFileSHA1>
+  <JumpAddresses>
+    <Address>$0334</Address>
+    <Address>$60AA</Address>
+  </JumpAddresses>
+  <UseBasicRun>0</UseBasicRun>
+  <InterruptsEnabled>0</InterruptsEnabled>
+  <MemoryConfig>$37</MemoryConfig>
+  <ColourRAMFile>FRANKIEGOESTOHOLLYWOOD-CRAM-4230</ColourRAMFile>
+  <ColourRAMStartAddress>$4230</ColourRAMStartAddress>
+  <ColourRAMPreserveMemory>1</ColourRAMPreserveMemory>
+  <RasterBarType>FreeLoad</RasterBarType>
+  <SidLength>79</SidLength>
+  <SourceFile>Frankie Goes to Hollywood.tap</SourceFile>
+  <SourceFileSHA1>d22b523a663313960e9eb537a506091b58c89352</SourceFileSHA1>
+  <ExomizerCommand>exomizer sfx 0x60AA "AlternativeFormats\PRGs\Uncrunched\Frankie Goes to Hollywood.prg,0x0334,0x008D" -Di_table_addr=0x02 -Di_irq_exit=0 -s "inc $d030 lsr $d011" -f "w1: bit $d011 bpl w1 w2: bit $d011 bmi w2 jsr $fda3 rol $d011 lda #$35 sta $01 jsr $4230 lda #$37 sta $01 jsr $0334 dec $d030" -x "inc $d020" -o "Frankie Goes to Hollywood.prg"</ExomizerCommand>
+</Metadata>
